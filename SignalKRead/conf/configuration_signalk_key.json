@@ -1,0 +1,19 @@
+{
+    "NomBateau": "['name']",
+    "CodeMMSI": "['mmsi']",
+    "CallSignVHF": "['communication']['callsignVhf']",
+    "HauteurBateau_m": "['design']['airHeight']['value']",
+    "LargeurBateau_m": "['design']['beam']['value']",
+    "LongueurBateau_m": "['design']['length']['value']['overall']",
+    "TirantEauMaxBateau_m": "['design']['draft']['value']['maximum']",
+    "Batterie_V": "['electrical']['batteries']['motor']['voltage']['value']",
+    "CapMagnetique_Rad": "['navigation']['headingMagnetic']['value']",
+    "GPSLatitude": "['xxx']",
+    "GPSLongitude": "['xxx']",
+    "GPSVitesse": "['xxx']",
+    "Gite_Rad": "['navigation']['attitude']['value']['roll']",
+    "Tangage_Rad": "['navigation']['attitude']['value']['pitch']",
+    "PressionAtmospherique_P": "['environment']['outside']['pressure']['value']",
+    "Temperature_K": "['environment']['outside']['temperature']['value']",
+    "HumiditeRelative_Ratio": "['environment']['inside']['relativeHumidity']['value']"
+}

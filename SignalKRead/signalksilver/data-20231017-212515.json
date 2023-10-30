@@ -1,0 +1,21 @@
+{
+    "DataTimestamp": "2023-10-16T19:06:25.618449",
+    "GenerationTimestamp": "2023-10-17T21:25:15.284149",
+    "NomBateau": "ORO'NUI",
+    "CodeMMSI": "MMSI12345",
+    "CallSignVHF": "CALLSIGN123",
+    "HauteurBateau_m": 9.5,
+    "LargeurBateau_m": 2.5,
+    "LongueurBateau_m": 7.8,
+    "TirantEauMaxBateau_m": 1.5,
+    "Batterie_V": 0.10384275337992493,
+    "CapMagnetique_Rad": 0.348315368401,
+    "GPSLatitude": "",
+    "GPSLongitude": "",
+    "GPSVitesse": "",
+    "Gite_Rad": 0.035342918325,
+    "Tangage_Rad": -0.15915657886700002,
+    "PressionAtmospherique_P": 100337,
+    "Temperature_K": 294.25,
+    "HumiditeRelative_Ratio": 52
+}

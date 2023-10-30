@@ -1,0 +1,25 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# RASPBERRY
+raspberry:
+  - switch:
+    - platform: remote_rpi_gpio
+      host: 192.168.1.186
+      ports:
+        11: Led Jaune
+        17: Led Rouge
+
